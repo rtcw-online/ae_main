@@ -1,5 +1,4 @@
 models\ae_frostbite
-sound\
 scripts\ae_common.shader
 scripts\ae_editor.shader
 scripts\shaderlist.txt
