@@ -18,4 +18,8 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: ae_main
-          path: *.pk3
+          path: |
+            ae_editor.pk3
+            ae_pak0.pk3
+            ae_adlernest.pk3
+            ae_frostbite.pk3
