@@ -1,8 +1,8 @@
 {
-map					"ae_frostbite_a1"
-longname			"Frostbite, by Moonkey"
-type				"wolfmp wolfsw"
-timelimit			10
-axisRespawnTime		30
-alliedRespawnTime	30
+map	"ae_frostbite"
+longname "^3Frostbite"
+type "wolfmp wolfsw"
+timelimit 10
+axisRespawnTime	30
+alliedRespawnTime 25
 }
