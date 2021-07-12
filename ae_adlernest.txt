@@ -3,4 +3,14 @@ maps\ae_adlernest.map
 maps\ae_adlernest.script
 scripts\ae_adlernest.arena
 scripts\ae_adlernest.shader
+sound\vehicles\tank\tank_idle.wav
+sound\vehicles\truck\truck_idle.wav
+sound\vehicles\tug\tug_move.wav
+sound\world\fan_med.wav
+sound\world\fire_01.wav
+sound\world\hum.wav
+sound\world\machine_01.wav
+sound\world\radio_static_01.wav
+sound\world\transformer.wav
+sound\world\wind_mountain.wav
 textures\ae_adlernest

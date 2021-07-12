@@ -3,3 +3,16 @@ maps\ae_frostbite.map
 maps\ae_frostbite.script
 scripts\ae_frostbite.arena
 scripts\ae_frostbite.shader
+sound\frostbite\frostbite_german_record_louder.wav
+sound\multiplayer\hurt_barbwire.wav
+sound\vehicles\truck\truck_idle.wav
+sound\world\alarm_03.wav"
+sound\world\fire_01.wav
+sound\world\leaves.wav
+sound\world\machine_01.wav
+sound\world\owl.wav
+sound\world\radio_static_01.wav
+sound\world\radio_static_02.wav
+sound\world\transformer.wav
+sound\world\war.wav
+sound\world\wind_mountain.wav
