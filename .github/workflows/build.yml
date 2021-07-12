@@ -7,25 +7,25 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: Create ae_editor.pk3
-        run: 7z a -tzip ae_editor.pk3 @ae_editor.txt
+        run: 7z a -tzip ae_editor.pk3 "@ae_editor.txt"
   build_ae_pak0:
     runs-on: windows-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: Create ae_pak0.pk3
-        run: 7z a -tzip ae_pak0.pk3 @ae_pak0.txt
+        run: 7z a -tzip ae_pak0.pk3 "@ae_pak0.txt"
   build_ae_adlernest:
     runs-on: windows-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: Create ae_adlernest.pk3
-        run: 7z a -tzip ae_adlernest.pk3 @ae_adlernest.txt
+        run: 7z a -tzip ae_adlernest.pk3 "@ae_adlernest.txt"
   build_ae_frostbite:
     runs-on: windows-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: Create ae_frostbite.pk3
-        run: 7z a -tzip ae_frostbite.pk3 @ae_frostbite.txt
+        run: 7z a -tzip ae_frostbite.pk3 "@ae_frostbite.txt"
