@@ -1,0 +1,6 @@
+maps\ae_adlernest.bsp
+maps\ae_adlernest.map
+maps\ae_adlernest.script
+scripts\ae_adlernest.arena
+scripts\ae_adlernest.shader
+textures\ae_adlernest

@@ -1,0 +1,6 @@
+maps\ae_frostbite.bsp
+maps\ae_frostbite.map
+maps\ae_frostbite.script
+maps\ae_frostbite.shader
+scripts\ae_frostbite.arena
+scripts\ae_frostbite.shader
