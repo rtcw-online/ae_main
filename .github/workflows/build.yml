@@ -8,6 +8,11 @@ jobs:
         uses: actions/checkout@v2
       - name: Create ae_editor.pk3
         run: 7z a -tzip ae_editor.pk3 "@ae_editor.txt"
+      - name: 'Upload ae_editor.pk3'
+        uses: actions/upload-artifact@v2
+        with:
+          name: ae_editor
+          path: ae_editor.pk3
   build_ae_pak0:
     runs-on: windows-latest
     steps:
@@ -15,6 +20,11 @@ jobs:
         uses: actions/checkout@v2
       - name: Create ae_pak0.pk3
         run: 7z a -tzip ae_pak0.pk3 "@ae_pak0.txt"
+      - name: 'Upload ae_pak0.pk3'
+        uses: actions/upload-artifact@v2
+        with:
+          name: ae_pak0
+          path: ae_pak0.pk3
   build_ae_adlernest:
     runs-on: windows-latest
     steps:
@@ -22,6 +32,11 @@ jobs:
         uses: actions/checkout@v2
       - name: Create ae_adlernest.pk3
         run: 7z a -tzip ae_adlernest.pk3 "@ae_adlernest.txt"
+      - name: 'Upload ae_adlernest.pk3'
+        uses: actions/upload-artifact@v2
+        with:
+          name: ae_adlernest
+          path: ae_adlernest.pk3
   build_ae_frostbite:
     runs-on: windows-latest
     steps:
@@ -29,3 +44,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Create ae_frostbite.pk3
         run: 7z a -tzip ae_frostbite.pk3 "@ae_frostbite.txt"
+      - name: 'Upload ae_frostbite.pk3'
+        uses: actions/upload-artifact@v2
+        with:
+          name: ae_frostbite
+          path: ae_frostbite.pk3
