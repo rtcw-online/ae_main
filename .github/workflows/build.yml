@@ -1,28 +1,28 @@
 name: Build All
 on: [push]
 jobs:
-  build ae_editor:
+  build_ae_editor:
     runs-on: windows-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: Create ae_editor.pk3
         run: 7z a -tzip ae_editor.pk3 @ae_editor.txt
-  build ae_pak0:
+  build_ae_pak0:
     runs-on: windows-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: Create ae_pak0.pk3
         run: 7z a -tzip ae_pak0.pk3 @ae_pak0.txt
-  build ae_adlernest:
+  build_ae_adlernest:
     runs-on: windows-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: Create ae_adlernest.pk3
         run: 7z a -tzip ae_adlernest.pk3 @ae_adlernest.txt
-  build ae_frostbite:
+  build_ae_frostbite:
     runs-on: windows-latest
     steps:
       - name: Check out repository code
