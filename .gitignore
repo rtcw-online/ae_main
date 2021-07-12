@@ -1,0 +1,7 @@
+/config
+*.bak
+*.cfg
+*.dll
+*.pk3
+*.prt
+*.srf
