@@ -1,4 +1,0 @@
-ae_editor.pk3
-ae_pak0.pk3
-ae_adlernest.pk3
-ae_frostbite.pk3

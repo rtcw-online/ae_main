@@ -14,10 +14,8 @@ jobs:
         run: 7z a -tzip ae_adlernest.pk3 "@ae_adlernest.txt"
       - name: Create ae_frostbite.pk3
         run: 7z a -tzip ae_frostbite.pk3 "@ae_frostbite.txt"
-      - name: Create ae_frostbite.pk3
-        run: 7z a -tzip ae_main.zip "@ae_main.txt"
       - name: 'Upload ae_main'
         uses: actions/upload-artifact@v2
         with:
           name: ae_main
-          path: ae_main.zip
+          path: *.pk3
