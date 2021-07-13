@@ -6,7 +6,7 @@ game_manager
 	
 		// Game rules
 		wm_axis_respawntime	30
-		wm_allied_respawntime 25		
+		wm_allied_respawntime 30		
 		wm_set_round_timelimit 10		
 		
 		// Axis control all objectives at the start (0 == AXIS, 1 == ALLIED)
@@ -31,14 +31,14 @@ game_manager
 		wm_objective_axis_desc 5 "Primary Objective:**Do not let the Allies breach the complex."
 		wm_objective_axis_desc 6 "Secondary Objective:**Hold the Upper Complex."
 
-		wm_objective_image 1 "objectives/ae_frostbite_1.jpg"
-		wm_objective_image 2 "objectives/ae_frostbite_2.jpg"
-		wm_objective_image 3 "objectives/ae_frostbite_3.jpg"
-		wm_objective_image 4 "objectives/ae_frostbite_4.jpg"
-	    wm_objective_image 5 "objectives/ae_frostbite_5.jpg"
-		wm_objective_image 6 "objectives/ae_frostbite_6.jpg"
+		wm_objective_image 1 "objectives/ae_frostbite/ae_frostbite_1.jpg"
+		wm_objective_image 2 "objectives/ae_frostbite/ae_frostbite_2.jpg"
+		wm_objective_image 3 "objectives/ae_frostbite/ae_frostbite_3.jpg"
+		wm_objective_image 4 "objectives/ae_frostbite/ae_frostbite_4.jpg"
+	    wm_objective_image 5 "objectives/ae_frostbite/ae_frostbite_5.jpg"
+		wm_objective_image 6 "objectives/ae_frostbite/ae_frostbite_6.jpg"
 		
-        wm_overview_image "overview/ae_frostbite.jpg"
+        wm_overview_image "levelshots/ae_frostbite.jpg"
 		
 		wm_objective_short_axis_desc 1 "Defend the Supply Documents"
 		wm_objective_short_axis_desc 2 "Stop the Allies from Transmitting"
