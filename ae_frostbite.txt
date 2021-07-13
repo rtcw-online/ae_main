@@ -1,6 +1,13 @@
+levelshots\ae_frostbite.jpg
 maps\ae_frostbite_b1.bsp
 maps\ae_frostbite_b1.map
 maps\ae_frostbite_b1.script
+objectives\ae_frostbite\ae_frostbite_1.jpg
+objectives\ae_frostbite\ae_frostbite_2.jpg
+objectives\ae_frostbite\ae_frostbite_3.jpg
+objectives\ae_frostbite\ae_frostbite_4.jpg
+objectives\ae_frostbite\ae_frostbite_5.jpg
+objectives\ae_frostbite\ae_frostbite_6.jpg
 scripts\ae_frostbite_b1.arena
 scripts\ae_frostbite.shader
 sound\frostbite\frostbite_german_record_louder.wav
