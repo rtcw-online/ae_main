@@ -1,9 +1,7 @@
 textures/ae_frostbite/sky
 {
 	qer_editorimage textures/ae_editor/blue1.tga
-	//q3map_sunExt 143 174 174 25 35 45 1 16
-	q3map_sunExt 0.60 0.55 0.55 25 35 45 1 16
-	//q3map_sun	0.60 0.55 0.55 18 220 60
+	q3map_sunExt 143 174 174 25 35 45 1 16
 	q3map_skylight 15 5
 	skyparms - 200 -
 	sunshader textures/ae_frostbite/full_moon2
