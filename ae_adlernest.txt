@@ -1,6 +1,13 @@
+levelshots\ae_adlernest.jpg
 maps\ae_adlernest_b1.bsp
 maps\ae_adlernest_b1.map
 maps\ae_adlernest_b1.script
+objectives\ae_adlernest\ae_adlernest_1.jpg
+objectives\ae_adlernest\ae_adlernest_2.jpg
+objectives\ae_adlernest\ae_adlernest_3.jpg
+objectives\ae_adlernest\ae_adlernest_4.jpg
+objectives\ae_adlernest\ae_adlernest_5.jpg
+objectives\ae_adlernest\ae_adlernest_6.jpg
 scripts\ae_adlernest_b1.arena
 scripts\ae_adlernest.shader
 sound\movers\misc\big_gate2.wav
