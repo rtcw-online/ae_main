@@ -9,8 +9,6 @@ ae_egypt_floor
 ae_frostbite
 ae_ice
 ae_lights
-ae_metal_misc
-ae_metals
 ae_plants
 ae_props
 ae_sfx
