@@ -4,7 +4,6 @@ maps\ae_frostbite.script
 scripts\ae_frostbite.arena
 scripts\ae_frostbite.shader
 sound\frostbite\frostbite_german_record_louder.wav
-sound\multiplayer\hurt_barbwire.wav
 sound\vehicles\truck\truck_idle.wav
 sound\world\alarm_03.wav"
 sound\world\fire_01.wav
