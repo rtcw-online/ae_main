@@ -15,8 +15,6 @@ scripts\ae_assault.shader
 scripts\ae_bunker.shader
 scripts\ae_egypt_floor.shader
 scripts\ae_lights.shader
-scripts\ae_metal_misc.shader
-scripts\ae_metals.shader
 scripts\ae_plants.shader
 scripts\ae_props.shader
 scripts\ae_sfx.shader
