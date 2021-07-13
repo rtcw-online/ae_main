@@ -15,3 +15,4 @@ sound\world\radio_static_02.wav
 sound\world\transformer.wav
 sound\world\war.wav
 sound\world\wind_mountain.wav
+textures\ae_frostbite
