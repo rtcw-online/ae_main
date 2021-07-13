@@ -19,7 +19,7 @@ jobs:
         with:
           name: "ae_main_${{ github.event.release.tag_name }}"
           path: |
-            ae_editor.pk3
-            ae_pak0.pk3
-            ae_adlernest.pk3
-            ae_frostbite.pk3
+            "ae_editor_${{ github.event.release.tag_name }}.pk3"
+            "ae_pak0_${{ github.event.release.tag_name }}.pk3"
+            "ae_adlernest_${{ github.event.release.tag_name }}.pk3"
+            "ae_frostbite_${{ github.event.release.tag_name }}.pk3"
