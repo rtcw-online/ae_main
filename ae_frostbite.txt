@@ -1,7 +1,7 @@
-maps\ae_frostbite.bsp
-maps\ae_frostbite.map
-maps\ae_frostbite.script
-scripts\ae_frostbite.arena
+maps\ae_frostbite_b1.bsp
+maps\ae_frostbite_b1.map
+maps\ae_frostbite_b1.script
+scripts\ae_frostbite_b1.arena
 scripts\ae_frostbite.shader
 sound\frostbite\frostbite_german_record_louder.wav
 sound\vehicles\truck\truck_idle.wav

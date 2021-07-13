@@ -1,7 +1,7 @@
-maps\ae_adlernest.bsp
-maps\ae_adlernest.map
-maps\ae_adlernest.script
-scripts\ae_adlernest.arena
+maps\ae_adlernest_b1.bsp
+maps\ae_adlernest_b1.map
+maps\ae_adlernest_b1.script
+scripts\ae_adlernest_b1.arena
 scripts\ae_adlernest.shader
 sound\vehicles\tank\tank_idle.wav
 sound\vehicles\truck\truck_idle.wav

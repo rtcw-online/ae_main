@@ -1,29 +1,25 @@
 name: Build
-on: [create]
+on: [push]
 jobs:
   build:
     runs-on: windows-latest
     steps:
-      - name: Get the version
-        id: get_version
-        run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
-        shell: bash
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: Create ae_editor.pk3
-        run: 7z a -tzip "ae_editor_${{ steps.get_version.outputs.VERSION }}.pk3" "@ae_editor.txt"
+        run: 7z a -tzip "ae_editor_b1.pk3" "@ae_editor.txt"
       - name: Create ae_pak0.pk3
-        run: 7z a -tzip "ae_pak0_${{ steps.get_version.outputs.VERSION }}.pk3" "@ae_pak0.txt"
+        run: 7z a -tzip "ae_pak0_b1.pk3" "@ae_pak0.txt"
       - name: Create ae_adlernest.pk3
-        run: 7z a -tzip "ae_adlernest_${{ steps.get_version.outputs.VERSION }}.pk3" "@ae_adlernest.txt"
+        run: 7z a -tzip "ae_adlernest_b1.pk3" "@ae_adlernest.txt"
       - name: Create ae_frostbite.pk3
-        run: 7z a -tzip "ae_frostbite_${{ steps.get_version.outputs.VERSION }}.pk3" "@ae_frostbite.txt"
+        run: 7z a -tzip "ae_frostbite_b1.pk3" "@ae_frostbite.txt"
       - name: 'Upload ae_main'
         uses: actions/upload-artifact@v2
         with:
-          name: "ae_main_${{ steps.get_version.outputs.VERSION }}"
+          name: "ae_main_b1"
           path: |
-            ae_editor_${{ steps.get_version.outputs.VERSION }}.pk3
-            ae_pak0_${{ steps.get_version.outputs.VERSION }}.pk3
-            ae_adlernest_${{ steps.get_version.outputs.VERSION }}.pk3
-            ae_frostbite_${{ steps.get_version.outputs.VERSION }}.pk3
+            ae_editor_b1.pk3
+            ae_pak0_b1.pk3
+            ae_adlernest_b1.pk3
+            ae_frostbite_b1.pk3

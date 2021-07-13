@@ -1,6 +1,6 @@
 {
 map	"ae_frostbite"
-longname "^3Frostbite"
+longname "^3ae_frostbite_b1"
 type "wolfmp wolfsw"
 timelimit 10
 axisRespawnTime	30
