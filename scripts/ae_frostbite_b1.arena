@@ -4,5 +4,5 @@ longname "^3ae_frostbite_b1"
 type "wolfmp wolfsw"
 timelimit 10
 axisRespawnTime	30
-alliedRespawnTime 25
+alliedRespawnTime 30
 }
