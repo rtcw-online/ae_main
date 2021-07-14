@@ -1,3 +1,4 @@
+ae_frostbite_readme.txt
 levelshots\ae_frostbite.jpg
 maps\ae_frostbite_b2.bsp
 maps\ae_frostbite_b2.script
