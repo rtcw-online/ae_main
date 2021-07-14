@@ -1,3 +1,4 @@
+ae_adlernest_readme.txt
 levelshots\ae_adlernest.jpg
 maps\ae_adlernest_b2.bsp
 maps\ae_adlernest_b2.script
