@@ -1,8 +1,0 @@
-{
-map "ae_adlernest_b2"
-longname "^3ae_adlernest_b2"
-type "wolfmp wolfsw"
-timelimit 10
-axisRespawnTime	30
-alliedRespawnTime 25
-}

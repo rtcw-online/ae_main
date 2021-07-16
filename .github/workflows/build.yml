@@ -7,19 +7,19 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: Create ae_editor.pk3
-        run: 7z a -tzip "ae_editor_b2.pk3" "@ae_editor.txt"
+        run: 7z a -tzip "ae_editor_b3.pk3" "@ae_editor.txt"
       - name: Create ae_pak0.pk3
-        run: 7z a -tzip "ae_pak0_b2.pk3" "@ae_pak0.txt"
+        run: 7z a -tzip "ae_pak0_b3.pk3" "@ae_pak0.txt"
       - name: Create ae_adlernest.pk3
-        run: 7z a -tzip "ae_adlernest_b2.pk3" "@ae_adlernest.txt"
+        run: 7z a -tzip "ae_adlernest_b3.pk3" "@ae_adlernest.txt"
       - name: Create ae_frostbite.pk3
-        run: 7z a -tzip "ae_frostbite_b2.pk3" "@ae_frostbite.txt"
+        run: 7z a -tzip "ae_frostbite_b3.pk3" "@ae_frostbite.txt"
       - name: 'Upload ae_main'
         uses: actions/upload-artifact@v2
         with:
-          name: "ae_main_b2"
+          name: "ae_main_b3"
           path: |
-            ae_editor_b2.pk3
-            ae_pak0_b2.pk3
-            ae_adlernest_b2.pk3
-            ae_frostbite_b2.pk3
+            ae_editor_b3.pk3
+            ae_pak0_b3.pk3
+            ae_adlernest_b3.pk3
+            ae_frostbite_b3.pk3
