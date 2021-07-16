@@ -7,7 +7,7 @@ As part of the ET: Legacy asset creation effort certain maps are being overhaule
 
 <img src="https://github.com/rtcw-online/ae_main/blob/develop/levelshots/ae_adlernest.jpg">
 <details>
-  <summary>Levelshots</summary>
+  <summary>Objectives</summary>
   <img src="https://github.com/rtcw-online/ae_main/blob/develop/objectives/ae_adlernest/ae_adlernest_1.jpg" width="640" height="360">
   <img src="https://github.com/rtcw-online/ae_main/blob/develop/objectives/ae_adlernest/ae_adlernest_2.jpg" width="640" height="360">
   <img src="https://github.com/rtcw-online/ae_main/blob/develop/objectives/ae_adlernest/ae_adlernest_3.jpg" width="640" height="360">
@@ -23,7 +23,7 @@ As part of the ET: Legacy asset creation effort certain maps are being overhaule
 
 <img src="https://github.com/rtcw-online/ae_main/blob/develop/levelshots/ae_frostbite.jpg">
 <details>
-  <summary>Levelshots</summary>
+  <summary>Objectives</summary>
   <img src="https://github.com/rtcw-online/ae_main/blob/develop/objectives/ae_frostbite/ae_frostbite_1.jpg" width="640" height="360">
   <img src="https://github.com/rtcw-online/ae_main/blob/develop/objectives/ae_frostbite/ae_frostbite_2.jpg" width="640" height="360">
   <img src="https://github.com/rtcw-online/ae_main/blob/develop/objectives/ae_frostbite/ae_frostbite_3.jpg" width="640" height="360">
